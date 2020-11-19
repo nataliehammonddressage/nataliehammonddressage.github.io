@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>/About-Natalie</loc>
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+  
+  
+    <url>
+      <loc>/jekyll/update/2020/11/18/welcome-to-jekyll.html</loc>
+      
+        <lastmod>2020-11-18T14:52:36+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/2018/10/02/automating-the-newspaper-and-magazine-download.html</loc>
+      
+        <lastmod>2018-10-02T18:15:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/2017/12/09/auto-deploy-static-wordpress-site-in-github.html</loc>
+      
+        <lastmod>2017-12-09T06:15:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/2017/04/15/list-your-github-repo-in-your-website-blog-using-javascript-jquery.html</loc>
+      
+        <lastmod>2017-04-15T06:15:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
+      <loc>/blog/2017/03/15/ubuntu-in-10-years-old-pc.html</loc>
+      
+        <lastmod>2017-03-15T06:15:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+</urlset>

@@ -1,0 +1,38 @@
+[
+  
+    {
+      "title"    : "Welcome to Jekyll!",
+      "url"      : "/jekyll/update/2020/11/18/welcome-to-jekyll.html",
+      "category" : "jekyllupdate",
+      "date"     : "2020-11-18 14:52:36 +0000"
+    } ,
+  
+    {
+      "title"    : "Automating the Newspaper download",
+      "url"      : "/blog/2018/10/02/automating-the-newspaper-and-magazine-download.html",
+      "category" : "blog",
+      "date"     : "2018-10-02 18:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Auto deploy your static site in github",
+      "url"      : "/blog/2017/12/09/auto-deploy-static-wordpress-site-in-github.html",
+      "category" : "blog",
+      "date"     : "2017-12-09 06:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "List github repo in your blog",
+      "url"      : "/blog/2017/04/15/list-your-github-repo-in-your-website-blog-using-javascript-jquery.html",
+      "category" : "blog",
+      "date"     : "2017-04-15 06:15:00 +0000"
+    } ,
+  
+    {
+      "title"    : "Ubuntu in old PC",
+      "url"      : "/blog/2017/03/15/ubuntu-in-10-years-old-pc.html",
+      "category" : "blog",
+      "date"     : "2017-03-15 06:15:00 +0000"
+    } 
+  
+]
