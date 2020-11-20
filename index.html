@@ -25,18 +25,7 @@ title: Home
     <div class="main-content">
         <!-- Featured
         ================================================== -->
-        <section class="featured-posts">
-            <div class="section-title">
-                <h2><span>Featured Blog!</span></h2>
-            </div>
-            <div class="row listfeaturedtag">
-                {% for post in site.posts %}
-                {% if post.featured == true %}
-                {% include featuredbox.html %}
-                {% endif %}
-                {% endfor %}
-            </div>
-        </section>
+        
 
         <!-- Posts Index
         ================================================== -->
@@ -48,13 +37,13 @@ title: Home
         <section class="recent-posts row">
             <div class="col-sm-8">
                 <div class="section-title">
-                    <h2><span>Blog Posts</span></h2>
+                    <h2><span>Latest Posts</span></h2>
                 </div>
                 <div class="masonrygrid row listrecent">
                     {% for post in paginator.posts %}
-                    {% unless post.featured == true %}
+                    
                     {% include postbox.html %}
-                    {% endunless %}
+                    
                     {% endfor %}
                 </div>
 

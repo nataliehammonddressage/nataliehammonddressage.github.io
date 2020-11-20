@@ -933,7 +933,9 @@ a.btn {
     content: '';
     background-color: #333333;
 }
-
+.sidebar a{
+    color: #999;
+}
 .sidebar ul {
     list-style: none;
     padding-left: 0;
