@@ -6,7 +6,7 @@ redirect_from:
   - "Boarding"
 ---
 
-{% picture assets/images/NatalieHammondDressage-1.jpg --alt A picture of Natalie %}
+{% picture assets/images/NatalieHammondDressage-3.jpg --alt Babler Park Riding Stable %}
 
 # Dressage Boarding in St. Louis Missouri
 

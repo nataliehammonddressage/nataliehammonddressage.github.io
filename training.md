@@ -6,7 +6,7 @@ redirect_from:
   - "Training"
 ---
 
-{% picture assets/images/NatalieHammondDressage-1.jpg --alt A picture of Natalie %}
+{% picture assets/images/NatalieHammondDressage-12.jpg --alt A picture of Natalie %}
 
 
 # Dressage Training
