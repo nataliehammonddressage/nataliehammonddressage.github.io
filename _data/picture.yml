@@ -1,0 +1,33 @@
+# _data/picture.yml
+
+presets:
+  default:
+    formats: [webp, original]
+    widths: [200, 400, 800, 1600, 2000]
+    link_source: false
+
+  direct:
+    markup: direct_url
+    widths: [200, 400, 800, 1600, 2000]
+
+  direct200:
+    markup: direct_url
+    link_source: false # wrap images in a link to the original source image.
+    dimension_attributes: true # Page reflow begone!
+
+    formats: [webp, original] # Must be an array, and order matters.
+
+    widths: [200, 400, 800, 1600] # Must be an array.
+    media_widths: # Because a cell phone doesn't want 1600 pixels.
+      mobile: [200, 400, 600] 
+      tablet: [400, 600, 800]
+
+    sizes: 
+      mobile: 100vw
+      tablet: 80vw
+    size: 800px
+
+  directsrc:
+    markup: naked_srcset
+    widths: [200, 400, 800, 1600, 2000]
+
