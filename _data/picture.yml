@@ -9,6 +9,7 @@ presets:
   direct:
     markup: direct_url
     widths: [200, 400, 800, 1600, 2000]
+    fallback_width: 1600
 
   direct200:
     # markup: direct_url
