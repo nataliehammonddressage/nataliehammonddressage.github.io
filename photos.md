@@ -5,7 +5,11 @@ redirect_from:
   - "Photos"
 ---
 
-# Dressage Photos
+<center>
+
+Here are some photos of Natalie and horses, family, and other cool things throughout the years.   
+</center>
+
 <center>
 <a href="{% picture direct assets/images/NatalieHammondDressage-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/NatalieHammondDressage-1.jpg --alt Natalie and Ranelle %}</a>
 <a href="{% picture direct assets/images/NatalieHammondDressage-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie at the Grand Canyon" >{% picture direct200 assets/images/NatalieHammondDressage-2.jpg --alt Natalie at the Grand Canyon %}</a>
