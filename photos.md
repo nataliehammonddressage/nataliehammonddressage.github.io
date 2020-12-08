@@ -12,6 +12,23 @@ Here are some photos of Natalie and horses, family, and other cool things throug
 
 <center>
 <a href="{% picture direct assets/images/NatalieHammondDressage-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/NatalieHammondDressage-1.jpg --alt Natalie and Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-1.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-1.jpg --alt Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-2.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-2.jpg --alt Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-3.jpg --alt Natalie and Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-4.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-4.jpg --alt Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-5.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-5.jpg --alt Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-6.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-6.jpg --alt Natalie and Rhapsody %}</a>
+
+<a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-7.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Students" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-7.jpg --alt Natalie and Students %}</a>
+
+<a href="{% picture direct assets/images/NatalieHammondDressage-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/NatalieHammondDressage-1.jpg --alt Natalie and Rhapsody %}</a>
+
 <a href="{% picture direct assets/images/NatalieHammondDressage-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie at the Grand Canyon" >{% picture direct200 assets/images/NatalieHammondDressage-2.jpg --alt Natalie at the Grand Canyon %}</a>
 <a href="{% picture direct assets/images/NatalieHammondDressage-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie at Babler State Park" >{% picture direct200 assets/images/NatalieHammondDressage-3.jpg --alt Natalie at Babler State Park %}</a>
 <a href="{% picture direct assets/images/NatalieHammondDressage-5.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Chris Hammond" >{% picture direct200 assets/images/NatalieHammondDressage-5.jpg --alt Natalie and Chris Hammond %}</a>

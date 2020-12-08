@@ -6,7 +6,7 @@ redirect_from:
   - "Training"
 ---
 
-{% picture assets/images/NatalieHammondDressage-12.jpg --alt A picture of Natalie %}
+{% picture assets/images/2020/NatalieHammondDressage2020-8.jpg --alt Natalie training Lander and Kadi %}
 
 
 Finding a dressage trainer that will work with you and your horse is an important part of the process of becoming a rider that can earn high marks in your tests. Natalie works with all levels of riders and horses to raise the bar on their performance at home or in competition.
