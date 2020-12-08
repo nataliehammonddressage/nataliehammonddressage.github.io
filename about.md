@@ -5,7 +5,7 @@ redirect_from:
   - "About-Natalie"
 ---
 
-{% picture assets/images/Natalie.jpg --alt A picture of Natalie %}
+{% picture assets/images/Natalie.jpg --alt A picture of Natalie Hammond %}
 
 # Hi, I am Natalie Hammond
 
@@ -16,3 +16,5 @@ Her talent and love of horses has allowed her to reach levels of competition onl
 Natalie's ambitions include continuing to compete in International events, as well as to continue to educate and work with other riders.
 
 Natalie now resides in Wildwood, Missouri with her husband Chris and their kids.
+
+[Read Natalie's CV](/blog/natalie-hammond-cv)
