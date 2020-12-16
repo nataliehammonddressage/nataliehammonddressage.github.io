@@ -66,10 +66,11 @@ endcapture %}
 
         <!-- Begin Logo -->
         <a class="navbar-brand" href="{{ site.baseurl }}/">
-            {% if site.logo == true %}
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            {% if site.logo.blank? %}
+            {{ site.name }}
             {% else %}
-            Natalie Hammond Dressage
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            
             {% endif %}
         </a>
         <!-- End Logo -->
