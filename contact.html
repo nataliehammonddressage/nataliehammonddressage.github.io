@@ -5,6 +5,16 @@ redirect_from:
   - "Contact"
 ---
 
+<script type="text/javascript">
+    var onloadCallback = function() {
+      alert("grecaptcha is ready!");
+    };
+  </script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+async defer>
+</script>
+
 {% picture assets/images/2020/NatalieHammondDressage2020-6.jpg --alt Natalie and Rhapsody %}
 
 <p>Using the form below you can contact Natalie Hammond with any questions you might have about her or her training programs available now.</p>
@@ -23,4 +33,5 @@ redirect_from:
     <textarea rows="8" class="form-control mb-3" name="message"
               placeholder="Message"></textarea>
     <input class="btn btn-success" type="submit" value="Send">
+    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 </form>
