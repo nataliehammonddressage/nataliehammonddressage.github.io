@@ -177,6 +177,18 @@
 						</div>
 
 						<div class="article-post">
+							<script type="text/javascript">
+								var onloadCallback = function () {
+									alert("grecaptcha is ready!");
+								};
+							</script>
+
+							<script
+								src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+								async
+								defer
+							></script>
+
 							<img
 								src="/generated/assets/images/2020/NatalieHammondDressage2020-6-800-8afcec5ab.jpg"
 								alt="Natalie and Rhapsody"
@@ -221,6 +233,7 @@
 									placeholder="Message"
 								></textarea>
 								<input class="btn btn-success" type="submit" value="Send" />
+								<div class="g-recaptcha" data-sitekey="your_site_key"></div>
 							</form>
 						</div>
 					</section>
@@ -304,7 +317,7 @@
 					</div>
 
 					<div class="copyright">
-						<p class="pull-left">Copyright © 2020 Natalie Hammond</p>
+						<p class="pull-left">Copyright © 2021 Natalie Hammond</p>
 						<p class="pull-right">
 							Site by
 							<a href="https://christoc.com/" target="_blank">Christoc.com</a>
