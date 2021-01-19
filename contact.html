@@ -179,17 +179,11 @@
 						<div class="article-post">
 							<script type="text/javascript">
 								var onloadCallback = function () {
-									grecaptcha.render("html_element", {
+									grecaptcha.render("RecaptchaField1", {
 										sitekey: "6LdHBPMUAAAAACWxenkodCISV8JIGVCRdcTbHTLq",
 									});
 								};
 							</script>
-
-							<script
-								src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-								async
-								defer
-							></script>
 
 							<img
 								src="/generated/assets/images/2020/NatalieHammondDressage2020-6-800-8afcec5ab.jpg"
@@ -239,7 +233,14 @@
 									class="g-recaptcha"
 									data-sitekey="6LdHBPMUAAAAACWxenkodCISV8JIGVCRdcTbHTLq"
 								></div>
+								<div id="RecaptchaField1"></div>
 							</form>
+
+							<script
+								src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+								async
+								defer
+							></script>
 						</div>
 					</section>
 				</div>
