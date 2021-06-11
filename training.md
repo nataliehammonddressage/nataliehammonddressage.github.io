@@ -21,4 +21,8 @@ Get trained by one of the best Dressage riders/trainers in the St. Louis area. N
 * Show Assistance
 * Clinics
 
+## Other Facilities
+
+Natalie can also provide training at other facilities, please inquire for more info.
+
 Please [contact us](/contact) for pricing information and so that we can answer all of your questions.
