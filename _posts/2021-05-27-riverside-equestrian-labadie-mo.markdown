@@ -6,7 +6,7 @@ permalink: /blog/riverside-equestrian-labadie-mo
 featured: true
 ---
 
-Natalie is now providing dressage lessons out of Riverside Equestrian Center. 
+Natalie is now providing dressage lessons out of [Riverside Equestrian Center](http://www.riversidestablesmo.com/). 
 
 Photos and information coming soon!
 
