@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Training at Riverside Equestrian Center!"
+title:  "Training at The Stables at Lake St Louis!"
 date:   2021-05-27 08:00:00 -0600
 permalink: /blog/dressage-training-the-stables-at-lake-st-louis
 featured: true
