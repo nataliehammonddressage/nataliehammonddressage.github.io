@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dressage Training
+title: Dressage Training in St Louis
 redirect_from: 
   - "dressage-training"
   - "Training"
@@ -14,7 +14,7 @@ Finding a dressage trainer that will work with you and your horse is an importan
 
 ## Training Options
 
-Get trained by one of the best Dressage riders/trainers in the St. Louis area. Natalie offers the following training options out of Riverside Equestrian Center in Labadie, MO.
+Get trained by one of the best Dressage riders/trainers in the St. Louis area. Natalie offers the following training options out of The Stables at Lake St Louis.
 
 * Personalized Lessons Full Training (5 training rides/lessons a week)
 * Half Training (3 training rides/lessons a week)
