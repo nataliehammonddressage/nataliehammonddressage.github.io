@@ -58,5 +58,5 @@ links:
     - https://twitter.com/natdressage
     - https://www.facebook.com/nhdressage
 
-exclude:
-  - /assets/images/*
+# exclude:
+#  - /assets/images/*
