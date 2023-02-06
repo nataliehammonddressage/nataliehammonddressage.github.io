@@ -7,7 +7,7 @@ favicon: assets/images/favicon.ico
 paginate: 6
 baseurl:
 email: 'hello@nataliehammond.com'
-google_analytics: UA-69145-9
+google_analytics: G-WZCBGK1JHH # UA-69145-9
 disqus:
 sharethis:
 
@@ -20,7 +20,7 @@ authors:
     email: hello@nataliehammond.com
     web: nataliehammond.com
     twitter: natdressage
-    description: Hi, I am Natalie Hammond.
+    description: Hi, I am Natalie Hammond. I have been riding and competing the sport of dressage since I was a child. 
 
 # Plugins
 plugins:
