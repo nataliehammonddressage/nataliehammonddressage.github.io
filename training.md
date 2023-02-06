@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Dressage Training in St Louis
+description: Dressage training from Natalie Hammond Dressage in St. Louis, Missouri. The finest training you can find!
+keywords: dressage, st louis, saint louis, training
 redirect_from: 
   - "dressage-training"
   - "Training"
