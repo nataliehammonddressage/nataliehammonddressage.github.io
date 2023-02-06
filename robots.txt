@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://www.nataliehammond.com/sitemap.xml

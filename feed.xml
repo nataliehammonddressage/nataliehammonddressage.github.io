@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description>Natalie Hammond Dressage in Wildwood, Missouri. Natalie offers a full line of dressage services including Clinics, Training, Lessons, and Breeding.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 06 Feb 2023 05:55:19 +0000</pubDate>
-    <lastBuildDate>Mon, 06 Feb 2023 05:55:19 +0000</lastBuildDate>
+    <link>https://www.nataliehammond.com/</link>
+    <atom:link href="https://www.nataliehammond.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 06 Feb 2023 15:06:05 +0000</pubDate>
+    <lastBuildDate>Mon, 06 Feb 2023 15:06:05 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     
       <item>
@@ -19,8 +19,8 @@
 
 </description>
         <pubDate>Tue, 24 Aug 2021 14:00:00 +0000</pubDate>
-        <link>/blog/dressage-training-the-stables-at-lake-st-louis</link>
-        <guid isPermaLink="true">/blog/dressage-training-the-stables-at-lake-st-louis</guid>
+        <link>https://www.nataliehammond.com/blog/dressage-training-the-stables-at-lake-st-louis</link>
+        <guid isPermaLink="true">https://www.nataliehammond.com/blog/dressage-training-the-stables-at-lake-st-louis</guid>
         
         
       </item>
@@ -97,8 +97,8 @@
 
 </description>
         <pubDate>Tue, 08 Dec 2020 14:00:00 +0000</pubDate>
-        <link>/blog/december-2020-photoshoot</link>
-        <guid isPermaLink="true">/blog/december-2020-photoshoot</guid>
+        <link>https://www.nataliehammond.com/blog/december-2020-photoshoot</link>
+        <guid isPermaLink="true">https://www.nataliehammond.com/blog/december-2020-photoshoot</guid>
         
         
       </item>
@@ -119,8 +119,8 @@
 
 </description>
         <pubDate>Fri, 20 Nov 2020 04:52:36 +0000</pubDate>
-        <link>/blog/new-natalie-hammond-dressage</link>
-        <guid isPermaLink="true">/blog/new-natalie-hammond-dressage</guid>
+        <link>https://www.nataliehammond.com/blog/new-natalie-hammond-dressage</link>
+        <guid isPermaLink="true">https://www.nataliehammond.com/blog/new-natalie-hammond-dressage</guid>
         
         
       </item>
@@ -171,8 +171,8 @@
 
 </description>
         <pubDate>Thu, 19 Nov 2020 04:52:36 +0000</pubDate>
-        <link>/blog/natalie-hammond-cv</link>
-        <guid isPermaLink="true">/blog/natalie-hammond-cv</guid>
+        <link>https://www.nataliehammond.com/blog/natalie-hammond-cv</link>
+        <guid isPermaLink="true">https://www.nataliehammond.com/blog/natalie-hammond-cv</guid>
         
         
       </item>

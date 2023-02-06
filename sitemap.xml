@@ -1,132 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      <url>
-        <loc>/blog/riverside-equestrian-labadie-mo</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/About-Natalie</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/dressage-boarding</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/Boarding</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/Contact</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/Home</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/Photos</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/dressage-training</loc>
-        
-       </url>
-    
-  
-    
-      <url>
-        <loc>/Training</loc>
-        
-       </url>
-    
-  
-    
-  
-    
-  
-    
-  
-  
-    <url>
-      <loc>/blog/dressage-training-the-stables-at-lake-st-louis</loc>
-      
-        <lastmod>2021-08-24T14:00:00+00:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>/blog/december-2020-photoshoot</loc>
-      
-        <lastmod>2020-12-08T14:00:00+00:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>/blog/new-natalie-hammond-dressage</loc>
-      
-        <lastmod>2020-11-20T04:52:36+00:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
-    <url>
-      <loc>/blog/natalie-hammond-cv</loc>
-      
-        <lastmod>2020-11-19T04:52:36+00:00</lastmod>
-      
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-    </url>
-  
+<url>
+<loc>https://www.nataliehammond.com/blog/natalie-hammond-cv</loc>
+<lastmod>2020-11-19T04:52:36+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/blog/new-natalie-hammond-dressage</loc>
+<lastmod>2020-11-20T04:52:36+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/blog/december-2020-photoshoot</loc>
+<lastmod>2020-12-08T14:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/blog/dressage-training-the-stables-at-lake-st-louis</loc>
+<lastmod>2021-08-24T14:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/about.html</loc>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/boarding.html</loc>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/contact.html</loc>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/</loc>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/photos.html</loc>
+</url>
+<url>
+<loc>https://www.nataliehammond.com/training.html</loc>
+</url>
 </urlset>
