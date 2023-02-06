@@ -10,6 +10,7 @@ email: 'hello@nataliehammond.com'
 google_analytics: G-WZCBGK1JHH # UA-69145-9
 disqus:
 sharethis:
+url: 'https://www.nataliehammond.com'
 
 # Authors
 authors:
@@ -27,6 +28,7 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 permalinks: pretty
 
