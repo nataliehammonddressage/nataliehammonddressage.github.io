@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Dressage Boarding in St. Lous, Missouri
+description: Information about dressage boarding in St. Louis Missouri and its surrounding areas
+keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestrian, horse
 redirect_from: 
   - "dressage-boarding"
   - "Boarding"
