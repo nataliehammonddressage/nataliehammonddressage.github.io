@@ -39,9 +39,9 @@ Here are some photos of Natalie and horses, family, and other cool things throug
 
 <a href="{% picture direct assets/images/2023/Corollo/Corollo-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
 
-<a href="{% picture direct assets/images/2023/Corollo/Corollo-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
+<a href="{% picture direct assets/images/2023/Corollo/Corollo-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-2.jpg --alt Natalie and Corollo %}</a>
 
-<a href="{% picture direct assets/images/2023/Corollo/Corollo-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
+<a href="{% picture direct assets/images/2023/Corollo/Corollo-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-3.jpg --alt Natalie and Corollo %}</a>
 
 <a href="{% picture direct assets/images/2023/Ranelle/Ranelle-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle/Ranelle-1.jpg --alt Natalie and Ranelle %}</a>
 
