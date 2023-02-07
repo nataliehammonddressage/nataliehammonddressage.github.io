@@ -31,9 +31,9 @@ Here are some photos of Natalie and horses, family, and other cool things throug
 
 <a href="{% picture direct assets/images/2023/Kingston-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Kingston August 2022" >{% picture direct200 assets/images/2023/Kingston-1.jpg --alt Natalie and Kingston August 2022%}</a>
 
-<a href="{% picture direct assets/images/2023/1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus" >{% picture direct200 assets/images/2023/1.jpg --alt Natalie and Rufus %}</a>
-
 <a href="{% picture direct assets/images/2023/2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and family at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2.jpg --alt Natalie and family at the 2022 US Dressage Finals %}</a>
+
+<a href="{% picture direct assets/images/2023/1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus" >{% picture direct200 assets/images/2023/1.jpg --alt Natalie and Rufus %}</a>
 
 <a href="{% picture direct assets/images/2023/3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Sandra at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/3.jpg --alt Natalie and Sandra at the 2022 US Dressage Finals %}</a>
 
