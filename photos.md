@@ -37,12 +37,21 @@ Here are some photos of Natalie and horses, family, and other cool things throug
 
 <a href="{% picture direct assets/images/2023/3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Sandra at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/3.jpg --alt Natalie and Sandra at the 2022 US Dressage Finals %}</a>
 
-<a href="{% picture direct assets/images/2023/Corollo-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo-1.jpg --alt Natalie and Corollo %}</a>
+<a href="{% picture direct assets/images/2023/Corollo/Corollo-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
 
-<a href="{% picture direct assets/images/2023/Ranelle-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle-1.jpg --alt Natalie and Ranelle %}</a>
+<a href="{% picture direct assets/images/2023/Corollo/Corollo-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
+
+<a href="{% picture direct assets/images/2023/Corollo/Corollo-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Corollo" >{% picture direct200 assets/images/2023/Corollo/Corollo-1.jpg --alt Natalie and Corollo %}</a>
+
+<a href="{% picture direct assets/images/2023/Ranelle/Ranelle-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle/Ranelle-1.jpg --alt Natalie and Ranelle %}</a>
+
+<a href="{% picture direct assets/images/2023/Ranelle/Ranelle-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle/Ranelle-2.jpg --alt Natalie and Ranelle %}</a>
+
+<a href="{% picture direct assets/images/2023/Ranelle/Ranelle-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle/Ranelle-3.jpg --alt Natalie and Ranelle %}</a>
+
+<a href="{% picture direct assets/images/2023/Ranelle/Ranelle-4.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Ranelle" >{% picture direct200 assets/images/2023/Ranelle/Ranelle-4.jpg --alt Natalie and Ranelle %}</a>
 
 <a href="{% picture direct assets/images/2023/Kingston-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Kingston August 2022" >{% picture direct200 assets/images/2023/Kingston-1.jpg --alt Natalie and Kingston August 2022%}</a>
-
 
 <a href="{% picture direct assets/images/NatalieHammondDressage-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/NatalieHammondDressage-1.jpg --alt Natalie and Rhapsody %}</a>
 
