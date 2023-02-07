@@ -13,6 +13,15 @@ Here are some photos of Natalie and horses, family, and other cool things throug
 
 <center>
 
+<a href="{% picture direct assets/images/2023/2022USDressageFinals/USDressageFinals-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2022USDressageFinals/USDressageFinals-1.jpg --alt Natalie and Rufus at the 2022 US Dressage Finals %}</a>
+
+<a href="{% picture direct assets/images/2023/2022USDressageFinals/USDressageFinals-2.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2022USDressageFinals/USDressageFinals-2.jpg --alt Natalie and Rufus at the 2022 US Dressage Finals %}</a>
+
+<a href="{% picture direct assets/images/2023/2022USDressageFinals/USDressageFinals-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2022USDressageFinals/USDressageFinals-3.jpg --alt Natalie and Rufus at the 2022 US Dressage Finals %}</a>
+
+<a href="{% picture direct assets/images/2023/2022USDressageFinals/USDressageFinals-4.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2022USDressageFinals/USDressageFinals-5.jpg --alt Natalie and Rufus at the 2022 US Dressage Finals %}</a>
+
+<a href="{% picture direct assets/images/2023/2022USDressageFinals/USDressageFinals-5.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus at the 2022 US Dressage Finals" >{% picture direct200 assets/images/2023/2022USDressageFinals/USDressageFinals-5.jpg --alt Natalie and Rufus at the 2022 US Dressage Finals %}</a>
 
 <a href="{% picture direct assets/images/2023/Melody-1.jpg %}" data-lightbox="DressagePhotos" data-title="In Memory of Melody" >{% picture direct200 assets/images/2023/Melody-1.jpg --alt In Memory of Melody %}</a>
 
