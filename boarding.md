@@ -12,6 +12,6 @@ redirect_from:
 
 # Dressage Boarding in St. Louis Missouri
 
-For information on dressage horse boarding and stables in St. Louis, please [Contact Natalie](/contact). Natalie boards and trains horses out of The Stables at Lake St Louis. 
+For information on dressage horse boarding and stables in St. Louis, please [Contact Natalie](/contact). Natalie boards and trains horses out of [Morrison Equestrian Center](https://morrisonequestriancenter.com) in Foristell. 
 
-In the past Natalie has boarded horses at a number of locations in the St. Louis area and can provide you information on a number of facilities in the St. Louis Metro area.
+A select number of stalls available for partial or full training horses/clients.

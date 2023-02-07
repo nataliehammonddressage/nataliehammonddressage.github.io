@@ -14,15 +14,14 @@ Finding a dressage trainer that will work with you and your horse is an importan
 
 ## Training Options
 
-Get trained by one of the best Dressage riders/trainers in the St. Louis area. Natalie offers the following training options out of The Stables at Lake St Louis.
+Get trained by one of the best Dressage riders/trainers in the St. Louis area. Natalie offers the following training options out of Morrison Equestrian Center.
 
 * Personalized Lessons Full Training (5 training rides/lessons a week)
 * Half Training (3 training rides/lessons a week)
+* Trailer In Lessons
 * Show Assistance
 * Clinics
 
-## Other Facilities
-
-Natalie can also provide training at other facilities, please inquire for more info.
+## Sign Up For Dressage Training
 
 Please [contact us](/contact) for pricing information and so that we can answer all of your questions.

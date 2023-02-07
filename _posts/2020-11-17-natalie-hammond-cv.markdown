@@ -1,12 +1,18 @@
 ---
 layout: post
 title:  "Natalie Hammond's Curriculum Vitae"
+description:
+keywords: dressage, cv, curriculum vitae, resume, equestrian, st louis, FEI, international
 date:   2020-11-18 22:52:36 -0600
 permalink: /blog/natalie-hammond-cv
 featured: true
 ---
 ### January 2013 - Present
 Dressage Trainer, Wildwood, Missouri
+
+- Qualified/Competed at 2022 US Dressage Finals
+- Qualified/Competed at 2022 GAIG/USDF Region 4 Championships
+
 
 ### July 2009 - April 2010
 
