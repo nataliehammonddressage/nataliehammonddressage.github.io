@@ -8,11 +8,13 @@ redirect_from:
 ---
 
 <center>
-
 Here are some photos of Natalie and horses, family, and other cool things throughout the years.   
 </center>
 
 <center>
+
+<a href="{% picture direct assets/images/2023/1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rufus" >{% picture direct200 assets/images/2023/1.jpg --alt Natalie and Rufus %}</a>
+
 <a href="{% picture direct assets/images/NatalieHammondDressage-1.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/NatalieHammondDressage-1.jpg --alt Natalie and Rhapsody %}</a>
 
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-1.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-1.jpg --alt Rhapsody %}</a>
