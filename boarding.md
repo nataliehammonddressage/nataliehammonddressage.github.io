@@ -6,6 +6,7 @@ keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestri
 redirect_from: 
   - "dressage-boarding"
   - "Boarding"
+  - "boarding"
 ---
 
 {% picture assets/images/NatalieHammondDressage-3.jpg --alt Babler Park Riding Stable %}

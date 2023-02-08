@@ -5,6 +5,7 @@ description: Natalie Hammond (Ottiger) started riding horses at an early age whi
 keywords: dressage, st louis, saint louis, equestrian, horse
 redirect_from: 
   - "About-Natalie"
+  - "about-natalie"
 ---
 
 {% picture assets/images/Natalie.jpg --alt A picture of Natalie Hammond %}
