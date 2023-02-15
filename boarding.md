@@ -5,8 +5,8 @@ description: Information about dressage boarding in St. Louis Missouri and its s
 keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestrian, horse
 redirect_from: 
   - "dressage-boarding"
-  - "Boarding"
-  - "boarding"
+  - "Boarding/"
+  - "boarding/"
 ---
 
 {% picture assets/images/NatalieHammondDressage-3.jpg --alt Babler Park Riding Stable %}
