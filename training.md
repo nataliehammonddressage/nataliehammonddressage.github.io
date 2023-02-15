@@ -5,8 +5,8 @@ description: Dressage training from Natalie Hammond Dressage in St. Louis, Misso
 keywords: dressage, st louis, saint louis, training
 redirect_from: 
   - "dressage-training"
-  - "Training"
-  - "training"
+  - "Training/"
+  - "training/"
 ---
 
 {% picture assets/images/2023/2022USDressageFinals/USDressageFinals-4.jpg --alt 2022 US Dressage Finals %}
