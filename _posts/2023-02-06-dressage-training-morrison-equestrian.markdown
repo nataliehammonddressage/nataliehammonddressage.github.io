@@ -16,4 +16,4 @@ Trailer in lessons are available at the Morrison Equestrian Facility.
 
 For [Dressage Boarding]() please [contact Morrison Equestrian](https://morrisonequestriancenter.com/contact/) directly.
 
-Stay tuned for 2023 in-house clinic and show schedule!
+
