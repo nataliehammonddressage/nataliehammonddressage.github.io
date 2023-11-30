@@ -10,6 +10,8 @@ featured: true
 ### January 2013 - Present
 Dressage Trainer, Wildwood, Missouri
 
+- Qualified/Competed at 2023 US Dressage Finals
+- Qualified/Competed at 2023 GAIG/USDF Region 4 Championships
 - Qualified/Competed at 2022 US Dressage Finals
 - Qualified/Competed at 2022 GAIG/USDF Region 4 Championships
 
