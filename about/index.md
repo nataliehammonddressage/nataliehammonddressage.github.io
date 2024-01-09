@@ -6,6 +6,9 @@ keywords: dressage, st louis, saint louis, equestrian, horse
 redirect_from: 
   - "About-Natalie"
   - "about-natalie"
+  - "about.html"
+  - "About.html"
+  - "About"
 ---
 
 {% picture assets/images/Natalie.jpg --alt A picture of Natalie Hammond %}
