@@ -67,10 +67,10 @@
 			property="og:description"
 			content="Dressage training from Natalie Hammond Dressage in St. Louis, Missouri. The finest equestrian training you can find!"
 		/>
-		<link rel="canonical" href="https://www.nataliehammond.com/training/" />
+		<link rel="canonical" href="https://www.nataliehammond.com/training.html" />
 		<meta
 			property="og:url"
-			content="https://www.nataliehammond.com/training/"
+			content="https://www.nataliehammond.com/training.html"
 		/>
 		<meta property="og:site_name" content="Natalie Hammond Dressage" />
 		<meta property="og:type" content="website" />
@@ -91,7 +91,7 @@
 						"url": "https://www.nataliehammond.com/assets/images/Logo-12-2020-black.png"
 					}
 				},
-				"url": "https://www.nataliehammond.com/training/"
+				"url": "https://www.nataliehammond.com/training.html"
 			}
 		</script>
 		<!-- End Jekyll SEO tag -->
