@@ -22,14 +22,9 @@
 			content="width=device-width, initial-scale=1, shrink-to-fit=no"
 		/>
 		<link rel="icon" href="/assets/images/favicon.ico" />
-		<title>
-			Dressage Boarding in St. Lous, Missouri | Natalie Hammond Dressage
-		</title>
+		<title>Contact Natalie Hammond Dressage | Natalie Hammond Dressage</title>
 
-		<meta
-			name="description"
-			content="Information about dressage boarding in St. Louis Missouri and its surrounding areas"
-		/>
+		<meta name="description" content="Contact Natalie Hammond Dressage" />
 
 		<link
 			rel="stylesheet"
@@ -57,43 +52,32 @@
 		/>
 
 		<!-- Begin Jekyll SEO tag v2.8.0 -->
-		<title>
-			Dressage Boarding in St. Lous, Missouri | Natalie Hammond Dressage
-		</title>
+		<title>Contact Natalie Hammond Dressage | Natalie Hammond Dressage</title>
 		<meta name="generator" content="Jekyll v4.3.3" />
-		<meta
-			property="og:title"
-			content="Dressage Boarding in St. Lous, Missouri"
-		/>
+		<meta property="og:title" content="Contact Natalie Hammond Dressage" />
 		<meta property="og:locale" content="en_US" />
-		<meta
-			name="description"
-			content="Information about dressage boarding in St. Louis Missouri and its surrounding areas"
-		/>
+		<meta name="description" content="Contact Natalie Hammond Dressage" />
 		<meta
 			property="og:description"
-			content="Information about dressage boarding in St. Louis Missouri and its surrounding areas"
+			content="Contact Natalie Hammond Dressage"
 		/>
-		<link rel="canonical" href="https://www.nataliehammond.com/boarding/" />
+		<link rel="canonical" href="https://www.nataliehammond.com/contact.html" />
 		<meta
 			property="og:url"
-			content="https://www.nataliehammond.com/boarding/"
+			content="https://www.nataliehammond.com/contact.html"
 		/>
 		<meta property="og:site_name" content="Natalie Hammond Dressage" />
 		<meta property="og:type" content="website" />
 		<meta name="twitter:card" content="summary" />
-		<meta
-			property="twitter:title"
-			content="Dressage Boarding in St. Lous, Missouri"
-		/>
+		<meta property="twitter:title" content="Contact Natalie Hammond Dressage" />
 		<meta name="twitter:site" content="@natdressage" />
 		<meta property="article:publisher" content="nataliehammond.com" />
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
 				"@type": "WebPage",
-				"description": "Information about dressage boarding in St. Louis Missouri and its surrounding areas",
-				"headline": "Dressage Boarding in St. Lous, Missouri",
+				"description": "Contact Natalie Hammond Dressage",
+				"headline": "Contact Natalie Hammond Dressage",
 				"publisher": {
 					"@type": "Organization",
 					"logo": {
@@ -101,14 +85,14 @@
 						"url": "https://www.nataliehammond.com/assets/images/Logo-12-2020-black.png"
 					}
 				},
-				"url": "https://www.nataliehammond.com/boarding/"
+				"url": "https://www.nataliehammond.com/contact.html"
 			}
 		</script>
 		<!-- End Jekyll SEO tag -->
 
 		<meta
 			name="keywords"
-			content="dressage, dressage boarding, boarding, st louis, saint louis, equestrian, horse"
+			content="dressage, dressage boarding, boarding, st louis, saint louis, equestrian, contact"
 		/>
 	</head>
 
@@ -188,43 +172,63 @@
 					<section>
 						<div class="section-title">
 							<center>
-								<h2><span>Dressage Boarding in St. Lous, Missouri</span></h2>
+								<h2><span>Contact Natalie Hammond Dressage</span></h2>
 							</center>
 						</div>
 
 						<div class="article-post">
-							<p>
-								<img
-									src="/generated/assets/images/NatalieHammondDressage-3-800-6676da0fa.jpg"
-									alt="Babler Park Riding Stable"
-									srcset="
-										/generated/assets/images/NatalieHammondDressage-3-200-6676da0fa.jpg   200w,
-										/generated/assets/images/NatalieHammondDressage-3-400-6676da0fa.jpg   400w,
-										/generated/assets/images/NatalieHammondDressage-3-800-6676da0fa.jpg   800w,
-										/generated/assets/images/NatalieHammondDressage-3-1600-6676da0fa.jpg 1600w,
-										/generated/assets/images/NatalieHammondDressage-3-2000-6676da0fa.jpg 2000w
-									"
-								/>
-							</p>
+							<script src="https://www.google.com/recaptcha/api.js"></script>
 
-							<h1 id="dressage-boarding-in-st-louis-missouri">
-								Dressage Boarding in St. Louis Missouri
-							</h1>
+							<img
+								src="/generated/assets/images/2020/NatalieHammondDressage2020-6-800-becb1d601.jpg"
+								alt="Natalie and Rhapsody"
+								srcset="
+									/generated/assets/images/2020/NatalieHammondDressage2020-6-200-becb1d601.jpg   200w,
+									/generated/assets/images/2020/NatalieHammondDressage2020-6-400-becb1d601.jpg   400w,
+									/generated/assets/images/2020/NatalieHammondDressage2020-6-800-becb1d601.jpg   800w,
+									/generated/assets/images/2020/NatalieHammondDressage2020-6-1600-becb1d601.jpg 1600w,
+									/generated/assets/images/2020/NatalieHammondDressage2020-6-2000-becb1d601.jpg 2000w
+								"
+							/>
 
 							<p>
-								For information on dressage horse boarding and stables in St.
-								Louis, please <a href="/contact">Contact Natalie</a>. Natalie
-								boards and trains horses out of
-								<a href="https://morrisonequestriancenter.com"
-									>Morrison Equestrian Center</a
-								>
-								in Foristell.
+								Using the form below you can contact Natalie Hammond with any
+								questions you might have about her or her training programs
+								available now.
 							</p>
 
-							<p>
-								A select number of stalls available for partial or full training
-								horses/clients.
-							</p>
+							<form action="https://formspree.io/f/mjvpolgz" method="POST">
+								<div class="form-group row">
+									<div class="col-md-6">
+										<input
+											class="form-control"
+											type="text"
+											name="name"
+											placeholder="Name"
+										/>
+									</div>
+									<div class="col-md-6">
+										<input
+											class="form-control"
+											type="email"
+											name="_replyto"
+											placeholder="E-mail Address"
+										/>
+									</div>
+								</div>
+								<textarea
+									rows="8"
+									class="form-control mb-3"
+									name="message"
+									placeholder="Message"
+								></textarea>
+								<input class="btn btn-success" type="submit" value="Send" />
+								<div
+									class="g-recaptcha"
+									data-sitekey="6LdHBPMUAAAAACWxenkodCISV8JIGVCRdcTbHTLq"
+								></div>
+								<div id="RecaptchaField1"></div>
+							</form>
 						</div>
 					</section>
 				</div>
