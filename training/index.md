@@ -6,7 +6,8 @@ keywords: dressage, st louis, saint louis, training
 redirect_from: 
   - "dressage-training"
   - "Training/"
-  - "training/"
+  - "training.html"
+  - "Training.html"
 ---
 
 {% picture assets/images/2023/2022USDressageFinals/USDressageFinals-4.jpg --alt 2022 US Dressage Finals %}
