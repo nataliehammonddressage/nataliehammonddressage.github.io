@@ -1,25 +1,23 @@
 ---
 layout: post
 title:  "December 2020 Photoshoot!"
+description: "Natalie Hammond Dressage and some of her students got their horses all cleaned up and did a photoshoot! Interested in having your own? Let us know!"
+keywords: "dressage, photoshoot, equestrian, st louis, Photo, Instagram"
 date:   2020-12-08 08:00:00 -0600
 permalink: /blog/december-2020-photoshoot
 featured: true
 ---
 
-This past Sunday Natalie and some of her students got their horses all cleaned up and did a photoshoot out at the St. Louis Equestrian Center. Below you will find some of the photos from that shoot, you can find more of the photo shoot results on our [Facebook Page](https://www.facebook.com/media/set?vanity=nhdressage&set=a.5017725081586158)
+This past Sunday Natalie and some of her students got their horses all cleaned up and did a photoshoot. Below you will find some of the photos from that shoot, you can find more of the photo shoot results on our [Facebook Page](https://www.facebook.com/media/set?vanity=nhdressage&set=a.5017725081586158)
 
 
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-1.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-1.jpg --alt Rhapsody %}</a>
-
-
 
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-2.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-2.jpg --alt Rhapsody %}</a>
 
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-3.jpg %}" data-lightbox="DressagePhotos" data-title="Natalie and Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-3.jpg --alt Natalie and Rhapsody %}</a>
 
-
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-4.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-4.jpg --alt Rhapsody %}</a>
-
 
 <a href="{% picture direct assets/images/2020/NatalieHammondDressage2020-5.jpg %}" data-lightbox="DressagePhotos" data-title="Rhapsody" >{% picture direct200 assets/images/2020/NatalieHammondDressage2020-5.jpg --alt Rhapsody %}</a>
 
