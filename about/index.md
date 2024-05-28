@@ -13,7 +13,7 @@ redirect_from:
 
 {% picture assets/images/Natalie.jpg --alt A picture of Natalie Hammond %}
 
-# Hi, I am Natalie Hammond
+## Hi, I am Natalie Hammond
 
 Natalie Hammond (Ottiger) started riding horses at an early age which has allowed her to compete and train internationally. Natalie has successfully competed at FEI levels. She has competed internationally in both Germany and Australia. After studying and training in Germany for three years Natalie completed her Bereiter training from the Equestrian Association E.V., Warendorf, Germany.
 
