@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Natalie Hammond Dressage
-description: Contact Natalie Hammond Dressage
+description: "Please use this form to Contact Natalie Hammond Dressage for more information about Dressage Training in St. Louis."
 keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestrian, contact
 redirect_from: 
   - "Contact"
@@ -12,7 +12,7 @@ redirect_from:
 
 {% picture assets/images/2020/NatalieHammondDressage2020-6.jpg --alt Natalie and Rhapsody %}
 
-<p>Using the form below you can contact Natalie Hammond with any questions you might have about her or her training programs available now.</p>
+Using the form below you can contact Natalie Hammond with any questions you might have about her or her training programs available now.
 
 <form action="https://formspree.io/f/mjvpolgz" method="POST">
     <div class="form-group row">
