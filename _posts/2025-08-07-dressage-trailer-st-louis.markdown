@@ -86,44 +86,44 @@ All images open in a lightbox when clicked:
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-7.jpg %}" data-lightbox="BloomerTrailer" data-title="Passenger side front view">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-7.jpg --alt "Passenger side front view" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-8.jpg %}" data-lightbox="BloomerTrailer" data-title="Full driver side view">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-8.jpg --alt "Full driver side view" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-8.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear view camera mounted at top of trailer">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-8.jpg --alt "Rear view camera mounted at top of trailer" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-9.jpg %}" data-lightbox="BloomerTrailer" data-title="Straight rear view of trailer closed">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-9.jpg --alt "Straight rear view of trailer closed" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-9.jpg %}" data-lightbox="BloomerTrailer" data-title="Passenger side exit door">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-9.jpg --alt "Passenger side exit door" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-10.jpg %}" data-lightbox="BloomerTrailer" data-title="Trailer and hitch showing tongue and jack">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-10.jpg --alt "Trailer and hitch showing tongue and jack" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-10.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-10.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-11.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear doors open with ramp down">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-11.jpg --alt "Rear doors open with ramp down" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-11.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-11.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-12.jpg %}" data-lightbox="BloomerTrailer" data-title="Interior horse compartment with dividers">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-12.jpg --alt "Interior horse compartment with dividers" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-12.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-12.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-13.jpg %}" data-lightbox="BloomerTrailer" data-title="Wide view inside horse stall area">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-13.jpg --alt "Wide view inside horse stall area" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-13.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-13.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-14.jpg %}" data-lightbox="BloomerTrailer" data-title="Rubber mats and padded divider detail">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-14.jpg --alt "Rubber mats and padded divider detail" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-14.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-14.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-15.jpg %}" data-lightbox="BloomerTrailer" data-title="View of inside from rear ramp">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-15.jpg --alt "View of inside from rear ramp" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-15.jpg %}" data-lightbox="BloomerTrailer" data-title="View of 1 of 4 tires">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-15.jpg --alt "View of 1 of 4 tires" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-16.jpg %}" data-lightbox="BloomerTrailer" data-title="Divider detail with padding and latch mechanism">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-16.jpg --alt "Divider detail with padding and latch mechanism" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-16.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear doors open">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-16.jpg --alt "Rear doors open" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-17.jpg %}" data-lightbox="BloomerTrailer" data-title="Interior wall insulation and vent detail">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-17.jpg --alt "Interior wall insulation and vent detail" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-17.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear view of horse compartments.">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-17.jpg --alt "Rear view of horse compartments." %}
 </a>
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-18.jpg %}" data-lightbox="BloomerTrailer" data-title="Rubber ramp and mat finish">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-18.jpg --alt "Rubber ramp and mat finish" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-19.jpg %}" data-lightbox="BloomerTrailer" data-title="Upper doors open with ramp down">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-19.jpg --alt "Upper doors open with ramp down" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-19.jpg %}" data-lightbox="BloomerTrailer" data-title="Inside driver's side stall with divider">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-19.jpg --alt "Inside driver's side stall with divider" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-20.jpg %}" data-lightbox="BloomerTrailer" data-title="Overview showing full trailer open and ramp deployed">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-20.jpg --alt "Overview showing full trailer open and ramp deployed" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-20.jpg %}" data-lightbox="BloomerTrailer" data-title="Inside passenger side stall with divider">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-20.jpg --alt "Inside passenger side stall with divider" %}
 </a>
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-21.jpg %}" data-lightbox="BloomerTrailer" data-title="Padded dividers and rubber flooring inside horse compartment">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-21.jpg --alt "Padded dividers and rubber flooring inside horse compartment" %}
@@ -131,11 +131,11 @@ All images open in a lightbox when clicked:
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-22.jpg %}" data-lightbox="BloomerTrailer" data-title="Wide angle of horse compartment with divider layout">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-22.jpg --alt "Wide angle of horse compartment with divider layout" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-23.jpg %}" data-lightbox="BloomerTrailer" data-title="Drop-down head window with bars and tinted glass">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-23.jpg --alt "Drop-down head window with bars and tinted glass" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-23.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear sliding window with protective bars">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-23.jpg --alt "Rear sliding window with protective bars" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-24.jpg %}" data-lightbox="BloomerTrailer" data-title="Second drop-down window with protective bars">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-24.jpg --alt "Second drop-down window with protective bars" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-24.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear sliding window with protective bars">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-24.jpg --alt "Rear sliding window with protective bars" %}
 </a>
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-25.jpg %}" data-lightbox="BloomerTrailer" data-title="Front corner polished aluminum view">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-25.jpg --alt "Front corner polished aluminum view" %}
@@ -155,33 +155,33 @@ All images open in a lightbox when clicked:
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-30.jpg %}" data-lightbox="BloomerTrailer" data-title="Additional wall hooks and vented aluminum paneling">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-30.jpg --alt "Additional wall hooks and vented aluminum paneling" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-31.jpg %}" data-lightbox="BloomerTrailer" data-title="Dual battery box and compartment view">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-31.jpg --alt "Dual battery box and compartment view" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-31.jpg %}" data-lightbox="BloomerTrailer" data-title="Back wall of tack room and vent">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-31.jpg --alt "Back wall of tack room and vent" %}
 </a>
 <a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-32.jpg %}" data-lightbox="BloomerTrailer" data-title="Battery wiring with cutoff switch installed">
   {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-32.jpg --alt "Battery wiring with cutoff switch installed" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-33.jpg %}" data-lightbox="BloomerTrailer" data-title="Wide shot of tack room and storage area">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-33.jpg --alt "Wide shot of tack room and storage area" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-33.jpg %}" data-lightbox="BloomerTrailer" data-title="Spare tire and saddle rack in tack room">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-33.jpg --alt "Spare tire and saddle rack in tack room" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-34.jpg %}" data-lightbox="BloomerTrailer" data-title="Mounted Voyager camera unit inside trailer">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-34.jpg --alt "Mounted Voyager camera unit inside trailer" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-34.jpg %}" data-lightbox="BloomerTrailer" data-title="Air Ride Control panel behind tack wall access">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-34.jpg --alt "Air Ride Control panel behind tack wall access" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-35.jpg %}" data-lightbox="BloomerTrailer" data-title="Control panel behind tack wall access">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-35.jpg --alt "Control panel behind tack wall access" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-35.jpg %}" data-lightbox="BloomerTrailer" data-title="Air Ride Control panel behind tack wall access">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-35.jpg --alt "Air Ride Control panel behind tack wall access" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-36.jpg %}" data-lightbox="BloomerTrailer" data-title="Divider padding and clean rubber mats">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-36.jpg --alt "Divider padding and clean rubber mats" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-36.jpg %}" data-lightbox="BloomerTrailer" data-title="Trailer Air Ride Hardware">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-36.jpg --alt "Trailer Air Ride Hardware" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-37.jpg %}" data-lightbox="BloomerTrailer" data-title="Passenger-side escape door with window and bar">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-37.jpg --alt "Passenger-side escape door with window and bar" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-37.jpg %}" data-lightbox="BloomerTrailer" data-title="Axle hardware">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-37.jpg --alt "Axle hardware" %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-38.jpg %}" data-lightbox="BloomerTrailer" data-title="Open escape door showing clean entry and latch">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-38.jpg --alt "Open escape door showing clean entry and latch" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-38.jpg %}" data-lightbox="BloomerTrailer" data-title="Open tack room door with shelving.">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-38.jpg --alt "Open tack room door with shelving." %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-39.jpg %}" data-lightbox="BloomerTrailer" data-title="Padded aluminum divider from interior view">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-39.jpg --alt "Padded aluminum divider from interior view" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-39.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear shot of trailer with brake lights on.">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-39.jpg --alt "Rear shot of trailer with brake lights on." %}
 </a>
-<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-40.jpg %}" data-lightbox="BloomerTrailer" data-title="Overhead shot showing interior lights and vents">
-  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-40.jpg --alt "Overhead shot showing interior lights and vents" %}
+<a href="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-40.jpg %}" data-lightbox="BloomerTrailer" data-title="Rear shot of trailer with lights off.">
+  {% picture direct200 assets/images/2025/BloomerTrailer/BloomerTrailer-40.jpg --alt "Rear shot of trailer with lights off." %}
 </a>
