@@ -17,7 +17,7 @@ Very clean, two-owner trailer – **custom ordered when new** and designed to ha
 
 - **14' box**, **17' overall** (from V-nose to bumper)
 - **Air ride axles** for smooth hauling
-- **16" aluminum wheels** with **Michelin tires**
+- **16" aluminum wheels** with like new **tires**
 - **8' tall**, **7' wide**
 - **Double escape doors**
 - **Rear ramp with upper doors**
