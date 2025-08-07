@@ -35,8 +35,6 @@ Dressing Room
 
 
 
-
-
 Features
 2 Horse Straight
 Bumper Pull
@@ -55,7 +53,8 @@ Spare Tire
 Hydraulic Jack
 
 
-
+Insulated Roof
+Ramp
 
 
 
