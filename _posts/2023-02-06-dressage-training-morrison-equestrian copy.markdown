@@ -4,7 +4,7 @@ title:  "Dressage Training at Morrison Equestrian!"
 date:   2023-02-06 16:00:00 -0600
 permalink: /blog/dressage-training-morrison-equestrian
 description: "Discover premier dressage training with Natalie Hammond at Morrison Equestrian Center in Wildwood, MO. Offering personalized training, clinics, and lessons for both riders and horses"
-keywrods: "Natalie Hammond Dressage, Morrison Equestrian Center, Dressage Training, Horse Riding Lessons, Dressage Clinics, Equestrian Training, Wildwood Missouri Dressage, Dressage Horse Breeding, Elite Dressage Training"
+keywords: "Natalie Hammond Dressage, Morrison Equestrian Center, Dressage Training, Horse Riding Lessons, Dressage Clinics, Equestrian Training, Wildwood Missouri Dressage, Dressage Horse Breeding, Elite Dressage Training"
 featured: false
 redirect_from: 
   - "/blog/riverside-equestrian-labadie-mo"
