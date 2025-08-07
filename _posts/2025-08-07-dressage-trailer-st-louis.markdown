@@ -8,7 +8,7 @@ keywords: "Horse Trailer for Sale, Bloomer Trailer, Dressage Trailer, 2 Horse St
 featured: true
 ---
 
-Very clean, one-owner trailer – **custom ordered when new** and designed to haul **very large horses** comfortably and safely.
+Very clean, two-owner trailer – **custom ordered when new** and designed to haul **very large horses** comfortably and safely.
 
 ---
 
