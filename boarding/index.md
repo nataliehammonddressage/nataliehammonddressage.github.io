@@ -10,7 +10,7 @@ keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestri
 
 # Dressage Boarding in St. Louis Missouri
 
-For information on dressage horse boarding and stables in St. Louis, please [Contact Natalie](/contact). Natalie boards and trains horses out of [Morrison Equestrian Center](https://morrisonequestriancenter.com) in Foristell. 
+For information on dressage horse boarding and stables in St. Louis, please [Contact Natalie](/contact/). Natalie boards and trains horses out of [Morrison Equestrian Center](https://morrisonequestriancenter.com) in Foristell. 
 
 A select number of stalls available for partial or full training horses/clients.
 

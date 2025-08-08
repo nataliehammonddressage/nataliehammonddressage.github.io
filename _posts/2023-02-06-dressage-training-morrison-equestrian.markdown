@@ -14,6 +14,6 @@ Natalie is the Head Dressage Trainer at [Morrison Equestrian Center](https://mor
 
 Trailer in lessons are available at the Morrison Equestrian Facility.
 
-For [Dressage Boarding](/boarding.html) please [contact Morrison Equestrian](https://morrisonequestriancenter.com/contact/) directly.
+For [Dressage Boarding](/boarding/) please [contact Morrison Equestrian](https://morrisonequestriancenter.com/contact/) directly.
 
 
