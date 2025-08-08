@@ -64,3 +64,6 @@ links:
 
 # exclude:
 #  - /assets/images/*
+
+include:
+  - _redirects
