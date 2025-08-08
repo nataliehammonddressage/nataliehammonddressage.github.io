@@ -3,11 +3,8 @@ layout: post
 title: "2017 Bloomer 2 Horse Straight Load Trailer – St. Louis"
 date: 2025-08-07 11:35:00 -0600
 permalink: /blog/dressage-horse-trailer-st-louis
-
 description: "For sale: 2017 Bloomer 2 Horse Straight Load Bumper Pull Trailer. Clean, one-owner trailer with air ride axles, aluminum construction, and premium features. Available near St. Louis, MO."
-
 keywords: "Horse Trailer for Sale, Bloomer Trailer, Dressage Trailer, 2 Horse Straight Load, Horse Trailer St Louis, Morrison Equestrian Center, Natalie Hammond, Premium Horse Trailer, Air Ride Horse Trailer, Bumper Pull Trailer"
-
 featured: true
 
 ---
