@@ -2,5 +2,11 @@
   command = "bundle exec jekyll build"
   publish = "_site"
 
+[[redirects]]
+  from = "/*"
+  to = "/:splat/"
+  status = 301
+  force = true
+
 [slug]
   trailing_slash = "never"  # Options: "always", "never", "ignore"
