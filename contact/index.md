@@ -7,6 +7,7 @@ redirect_from:
   - "Contact"
   - "contact.html"
   - "Contact.html"
+  - "contact/"
 ---
 
 {% picture assets/images/2020/NatalieHammondDressage2020-6.jpg --alt Natalie and Rhapsody %}
