@@ -42,6 +42,6 @@ Natalie offers a variety of training programs to suit the needs of different hor
 
 ### Boarding Options
 
-A select number of stalls are available for partial or full training horses/clients. Our boarding options are designed to cater to the specific needs of dressage horses and their owners. For detailed information on pricing and availability, please [Contact Natalie](/contact).
+A select number of stalls are available for partial or full training horses/clients. Our boarding options are designed to cater to the specific needs of dressage horses and their owners. For detailed information on pricing and availability, please [Contact Natalie](/contact/).
 
 Explore the serene and professional environment at Morrison Equestrian Center, where your horse will receive top-notch care and training to excel in dressage.

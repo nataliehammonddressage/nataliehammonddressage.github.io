@@ -22,4 +22,4 @@ Get trained by one of the best Dressage riders/trainers in the St. Louis area. N
 
 ## Sign Up For Dressage Training
 
-Please [contact us](/contact) for pricing information and so that we can answer all of your questions.
+Please [contact us](/contact/) for pricing information and so that we can answer all of your questions.
