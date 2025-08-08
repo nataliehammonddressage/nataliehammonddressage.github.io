@@ -4,10 +4,6 @@ title: About Natalie Hammond
 description: Natalie Hammond (Ottiger) is an international equestrian, competing and training at FEI levels in Germany and Australia. She holds Bereiter certification from Germany.
 keywords: dressage, st louis, saint louis, equestrian, horse
 permalink: /about/
-redirect_from: 
-  - "About-Natalie"
-  - "about-natalie"
-  - "About"
 ---
 
 {% picture assets/images/Natalie.jpg --alt A picture of Natalie Hammond %}
