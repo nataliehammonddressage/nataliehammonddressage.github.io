@@ -3,4 +3,4 @@
   publish = "_site"
 
 [slug]
-  trailing_slash = "always"  # Options: "always", "never", "ignore"
+  trailing_slash = "never"  # Options: "always", "never", "ignore"
