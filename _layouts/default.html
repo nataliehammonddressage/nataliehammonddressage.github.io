@@ -34,8 +34,11 @@
         <meta property="og:type" content="article" />
         {% endif %}
         <meta property="og:title" content="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" />
+        
         {% if page.description %}
         <meta property="og:description" content="{{ page.description }}" />
+        <meta property="fb:app_id" content="{{ site.facebook.app_id }}" />
+
         <meta name="description" content="{{ page.description }}">
         {% else %}
         <meta property="og:description" content="{{ site.description }}" />
