@@ -22,4 +22,4 @@
   command = "npm run build"
 
 [slug]
-  trailing_slash = "ignore"  # Options: "always", "never", "ignore"
+  trailing_slash = "never"  # Options: "always", "never", "ignore"
