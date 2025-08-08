@@ -3,10 +3,7 @@ layout: page
 title: Dressage Photos from Natalie Hammond Dressage
 description: Check out some photos from Natalie Hammond Dressage in St. Louis, Missouri 
 keywords: dressage photos, equestrian, horse, horse photos, st louis, saint louis, stl, 314, 636
-redirect_from: 
-  - "Photos"
-  - "photos.html"
-  - "Photos.html"
+
 ---
 
 <center>

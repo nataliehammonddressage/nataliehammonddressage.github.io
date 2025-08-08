@@ -3,11 +3,7 @@ layout: page
 title: Contact Natalie Hammond Dressage
 description: "Please use this form to Contact Natalie Hammond Dressage for more information about Dressage Training in St. Louis."
 keywords: dressage, dressage boarding, boarding, st louis, saint louis, equestrian, contact
-redirect_from: 
-  - "Contact"
-  - "contact.html"
-  - "Contact.html"
-  - "contact/"
+
 ---
 
 {% picture assets/images/2020/NatalieHammondDressage2020-6.jpg --alt Natalie and Rhapsody %}
