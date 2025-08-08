@@ -9,6 +9,8 @@ image: /assets/images/2025/BloomerTrailer/BloomerTrailer-1.jpg
 featured: true
 ---
 
+<img src="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-2.jpg %}" alt="Bloomer 2 Horse Straight Load Dressage Trailer">
+
 We are selling our 2017 Bloomer 2 Horse Straight Load Bumper Pull Trailer. This trailer has been excellent with very limited use since purchased and serviced. Tires are in great shape, trailer is in excellent condition.
 
 Very clean, two-owner trailer – **custom ordered when new** and designed to haul **very large horses** comfortably and safely.
