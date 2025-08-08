@@ -5,7 +5,7 @@ date: 2025-08-07 11:35:00 -0600
 permalink: /blog/dressage-horse-trailer-st-louis
 description: "For sale: Bloomer 2 Horse Straight Load Bumper Pull Trailer. Clean, one-owner trailer with air ride axles, aluminum construction, and premium features. Available near St. Louis, MO."
 keywords: "Dressage, Horse Trailer for Sale, Bloomer Trailer, Dressage Trailer, 2 Horse Straight Load, Horse Trailer St Louis, Morrison Equestrian Center, Natalie Hammond, Premium Horse Trailer, Air Ride Horse Trailer, Bumper Pull Trailer"
-image: /assets/images/2025/BloomerTrailer/BloomerTrailer-1.jpg
+image: /assets/images/2025/BloomerTrailer/BloomerTrailer-2.jpg
 featured: true
 ---
 
@@ -51,6 +51,9 @@ This trailer is great for keeping your large dressage horse safe and sound while
 
 - **Available near Wentzeville, Missouri**
 - **Price: $29,000**
+
+### Tow Vehicle
+If you're also needing a tow vehicle we can talk about our 2022 Ford F-250 Super Duty, that can also be made available for sale (seen in the pictures).
 
 ## 📸 Photo Gallery
 
