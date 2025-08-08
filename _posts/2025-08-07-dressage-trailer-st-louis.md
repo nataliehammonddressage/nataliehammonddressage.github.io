@@ -12,6 +12,8 @@ We are selling our 2017 Bloomer 2 Horse Straight Load Bumper Pull Trailer. This 
 
 Very clean, two-owner trailer – **custom ordered when new** and designed to haul **very large horses** comfortably and safely.
 
+Great to keep your large dressage horse safe and sound while travelling in comfort around the country to shows!
+
 
 ### 🐴 Trailer Highlights
 
