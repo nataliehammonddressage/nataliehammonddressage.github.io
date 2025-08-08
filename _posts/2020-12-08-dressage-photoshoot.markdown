@@ -5,6 +5,7 @@ description: "Natalie Hammond Dressage and some of her students got their horses
 keywords: "dressage, photoshoot, equestrian, st louis, Photo, Instagram"
 date:   2020-12-08 08:00:00 -0600
 permalink: /blog/december-2020-photoshoot
+image: /assets/images/2020/NatalieHammondDressage2020-1.jpg
 featured: true
 ---
 

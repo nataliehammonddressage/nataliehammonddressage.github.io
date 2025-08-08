@@ -6,9 +6,7 @@ permalink: /blog/dressage-training-morrison-equestrian
 description: "Discover premier dressage training with Natalie Hammond at Morrison Equestrian Center in Wildwood, MO. Offering personalized training, clinics, and lessons for both riders and horses"
 keywords: "Natalie Hammond Dressage, Morrison Equestrian Center, Dressage Training, Horse Riding Lessons, Dressage Clinics, Equestrian Training, Wildwood Missouri Dressage, Dressage Horse Breeding, Elite Dressage Training"
 featured: false
-redirect_from: 
-  - "/blog/riverside-equestrian-labadie-mo"
-  - /blog/dressage-training-the-stables-at-lake-st-louis
+image: /assets/images/2023/morrison.webp
 ---
 Natalie is the Head Dressage Trainer at [Morrison Equestrian Center](https://morrisonequestriancenter.com) in Foristell, Missouri.
 

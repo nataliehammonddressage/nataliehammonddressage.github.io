@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to the new Natalie Hammond Dressage!"
 date:   2020-11-19 22:52:36 -0600
 permalink: /blog/new-natalie-hammond-dressage
+image: /assets/images/2020/NatalieHammondDressage2020-3.jpg
 featured: true
 ---
 

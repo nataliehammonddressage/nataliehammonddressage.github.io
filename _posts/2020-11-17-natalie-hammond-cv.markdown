@@ -5,6 +5,7 @@ description: "Natalie Hammond's Curriculum Vitae provides a list of her accompli
 keywords: "dressage, cv, curriculum vitae, resume, equestrian, st louis, FEI, international"
 date:   2020-11-18 22:52:36 -0600
 permalink: /blog/natalie-hammond-cv
+image: /assets/images/2020/NatalieHammondDressage2020-3.jpg
 featured: true
 ---
 ### January 2013 - Present
