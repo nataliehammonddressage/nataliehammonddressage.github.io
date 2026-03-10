@@ -11,7 +11,7 @@ featured: true
 
 <img src="{% picture direct assets/images/2025/BloomerTrailer/BloomerTrailer-2.jpg %}" alt="Bloomer 2 Horse Straight Load Dressage Trailer">
 
-We are selling our 2017 Bloomer 2 Horse Straight Load Bumper Pull Trailer. This trailer has been excellent with very limited use since purchased and serviced. Tires are in great shape, trailer is in excellent condition.
+We sold our 2017 Bloomer 2 Horse Straight Load Bumper Pull Trailer. This trailer has been excellent with very limited use since purchased and serviced. Tires are in great shape, trailer is in excellent condition.
 
 Very clean, two-owner trailer – **custom ordered when new** and designed to haul **very large horses** comfortably and safely.
 
@@ -49,8 +49,7 @@ This trailer is great for keeping your large dressage horse safe and sound while
 
 ### 💵 Price, Contact
 
-- **Available near Wentzeville, Missouri**
-- **Price: $29,000**
+- **Price: $SOLD**
 
 ### Tow Vehicle
 If you're also needing a tow vehicle we can talk about our 2022 Ford F-250 Super Duty, that can also be made available for sale (seen in the pictures).
