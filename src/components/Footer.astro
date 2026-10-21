@@ -1,0 +1,124 @@
+---
+import { SITE } from '../site';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="wrap cols">
+    <div class="about">
+      <p class="name">Natalie Hammond Dressage</p>
+      <p>
+        FEI dressage rider and Bereiter riding and training out of
+        <a href={SITE.barn.url} rel="noopener">{SITE.barn.name}</a> in {SITE.barn.city}, Missouri, serving the
+        greater St. Louis area.
+      </p>
+    </div>
+    <nav aria-label="Footer">
+      <p class="label">Explore</p>
+      <ul>
+        <li><a href="/blog/">Journal</a></li>
+        <li><a href="/photos/">Photos</a></li>
+        <li><a href="/about/">About Natalie</a></li>
+        <li><a href="/blog/natalie-hammond-cv">Natalie's CV</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Training">
+      <p class="label">Dressage in St. Louis</p>
+      <ul>
+        <li><a href="/training/">Dressage Training &amp; Lessons</a></li>
+        <li><a href="/boarding/">Dressage Boarding</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Social">
+      <p class="label">Follow along</p>
+      <ul>
+        <li><a href={SITE.social.facebook} rel="noopener me">Facebook</a></li>
+        <li><a href={SITE.barn.url} rel="noopener">{SITE.barn.name}</a></li>
+        <li><a href="/feed.xml">RSS feed</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap legal">
+    <p>&copy; {year} Natalie Hammond Dressage. All rights reserved.</p>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    margin-top: 4rem;
+    background: var(--brand);
+    color: color-mix(in srgb, var(--brand-ink) 85%, transparent);
+    font-size: 0.95rem;
+  }
+  @media (prefers-color-scheme: dark) {
+    .site-footer {
+      background: var(--surface);
+      color: var(--ink-soft);
+    }
+  }
+  .cols {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    padding-block: 3.5rem 2rem;
+  }
+  @media (max-width: 860px) {
+    .cols {
+      grid-template-columns: 1fr 1fr;
+    }
+    .about {
+      grid-column: 1 / -1;
+    }
+  }
+  @media (max-width: 480px) {
+    .cols {
+      grid-template-columns: 1fr;
+    }
+  }
+  .name {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    color: inherit;
+    margin-bottom: 0.5rem;
+  }
+  .about p:last-child {
+    max-width: 26rem;
+  }
+  .label {
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-bottom: 0.75rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.4rem;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+  .about a {
+    text-decoration: underline;
+  }
+  .legal {
+    border-top: 1px solid color-mix(in srgb, currentColor 20%, transparent);
+    padding-block: 1.25rem;
+    font-size: 0.85rem;
+    opacity: 0.8;
+  }
+  .legal p {
+    margin: 0;
+  }
+</style>

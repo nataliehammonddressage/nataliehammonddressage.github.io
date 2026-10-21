@@ -1,0 +1,22 @@
+---
+import Page from '../../layouts/Page.astro';
+import AlbumCard from '../../components/AlbumCard.astro';
+import { getAlbums } from '../../utils';
+import ogImage from '../../assets/images/2023/2022USDressageFinals/USDressageFinals-1.jpg';
+
+const albums = await getAlbums();
+---
+
+<Page
+  title="Dressage Photos"
+  heading="Photos"
+  eyebrow="Albums"
+  lede="Natalie and her horses, family, shows, and other good moments through the years."
+  description="Dressage photos of Natalie Hammond and her horses at shows and around the barn in St. Louis, Missouri, including the 2022 US Dressage Finals."
+  keywords="dressage photos, equestrian, horse, horse photos, st louis, saint louis, natalie hammond"
+  image={ogImage}
+>
+  <div class="grid">
+    {albums.map((album) => <AlbumCard album={album} />)}
+  </div>
+</Page>

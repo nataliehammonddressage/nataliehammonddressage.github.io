@@ -1,0 +1,42 @@
+---
+import Page from '../../layouts/Page.astro';
+import { personLd } from '../../schema';
+import { SITE } from '../../site';
+import hero from '../../assets/images/Natalie.jpg';
+---
+
+<Page
+  title="About Natalie Hammond"
+  heading="Hi, I'm Natalie Hammond"
+  eyebrow="About"
+  description="Natalie Hammond (Ottiger) is an international equestrian who has competed and trained at FEI levels in Germany and Australia. She holds Bereiter certification from Germany and rides in the St. Louis area."
+  keywords="natalie hammond, natalie ottiger, dressage, st louis, saint louis, equestrian, horse, bereiter"
+  hero={hero}
+  heroAlt="Natalie Hammond at the Grand Canyon"
+  heroPosition="50% 30%"
+  jsonLd={personLd}
+>
+  <div class="prose">
+    <p class="lede">
+      Natalie Hammond (Ottiger) started riding horses at an early age, which has allowed her to compete and train
+      internationally.
+    </p>
+    <p>
+      Natalie has successfully competed at FEI levels, both in Germany and Australia. After studying and training in
+      Germany for three years, she completed her Bereiter training with the Equestrian Association e.V. in Warendorf,
+      Germany.
+    </p>
+    <p>
+      Her talent and love of horses have allowed her to reach levels of competition few riders get to, and to help her
+      students reach beyond their own riding goals. More recently she qualified for and competed at the US Dressage
+      Finals in 2022 and 2023.
+    </p>
+    <p>
+      Natalie now rides and trains out of <a href={SITE.barn.url} rel="noopener">{SITE.barn.name}</a> in
+      {SITE.barn.city}, Missouri. She lives in Wildwood, Missouri with her husband Chris and their kids.
+    </p>
+    <p>
+      <a class="btn" href="/blog/natalie-hammond-cv">Read Natalie's CV</a>
+    </p>
+  </div>
+</Page>

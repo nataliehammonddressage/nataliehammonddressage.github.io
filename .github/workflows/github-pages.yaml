@@ -1,17 +1,42 @@
-name: Build and deploy jekyll site
+name: Build and deploy Astro site
 
 on:
   push:
     branches:
       - dev
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
-    runs-on: ubuntu-22.04 
+    runs-on: ubuntu-latest
     steps:
-    - name: Reusable Jekyll Build and Deploy
-      uses: ChrisHammond/christoc-jekyll-builddeploy@v0.0.9
-      with:
-        ruby_version: '3.2.2'
-        jekyll_build_opts: ''
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # Processed images are slow to generate, so keep them between runs
+      - uses: actions/cache@v4
+        with:
+          path: node_modules/.astro
+          key: astro-assets-${{ hashFiles('src/assets/**') }}
+          restore-keys: astro-assets-
+
+      - run: npm ci
+      - run: npm run build
+
+      - name: Deploy built site to main
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: main

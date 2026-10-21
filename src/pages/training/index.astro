@@ -1,0 +1,99 @@
+---
+import Page from '../../layouts/Page.astro';
+import { businessLd } from '../../schema';
+import { SITE } from '../../site';
+import hero from '../../assets/images/2023/2022USDressageFinals/USDressageFinals-4.jpg';
+
+const faqs = [
+  {
+    q: 'Where does Natalie teach and train?',
+    a: `Natalie rides and trains out of ${SITE.barn.name} in ${SITE.barn.city}, Missouri, convenient to St. Louis, Wildwood, O'Fallon, Chesterfield and the rest of St. Charles County.`,
+  },
+  {
+    q: 'Who does Natalie work with?',
+    a: 'Riders and horses at every level, from those just starting dressage to competitors working toward regional championships and the US Dressage Finals.',
+  },
+  {
+    q: 'Is Natalie taking new students?',
+    a: 'Natalie keeps a limited schedule these days. Openings for lessons and training come up from time to time, so please get in touch to ask about current availability and pricing.',
+  },
+];
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.q,
+    acceptedAnswer: { '@type': 'Answer', text: f.a },
+  })),
+};
+---
+
+<Page
+  title="Dressage Training in St. Louis"
+  heading="Dressage Training & Lessons in St. Louis"
+  eyebrow="Training"
+  lede={`Lessons, training rides and show support with Natalie Hammond at ${SITE.barn.name} in ${SITE.barn.city}, Missouri.`}
+  description="Dressage training and lessons with Natalie Hammond, an FEI rider and German Bereiter, at Paradiso Farm in Wentzville, Missouri, serving the St. Louis area."
+  keywords="dressage training, dressage lessons, dressage trainer, st louis, saint louis, wentzville, wildwood, st charles county, missouri"
+  hero={hero}
+  heroAlt="Natalie and Rufus at the 2022 US Dressage Finals"
+  heroPosition="50% 40%"
+  jsonLd={[businessLd, faqLd]}
+>
+  <div class="prose">
+    <p>
+      Finding a dressage trainer who will work with you and your horse is an important part of becoming a rider who
+      earns high marks in the show ring. Natalie works with riders and horses of all levels to raise the bar on their
+      performance at home or in competition.
+    </p>
+    <p>
+      Natalie competed at FEI levels in Germany and Australia, completed her Bereiter training in Warendorf, Germany,
+      and has qualified for and competed at the US Dressage Finals. Read more in <a href="/about/">her bio</a> and
+      <a href="/blog/natalie-hammond-cv">CV</a>.
+    </p>
+
+    <h2>Training options</h2>
+    <p>
+      Natalie keeps a <strong>limited schedule</strong>, with availability for:
+    </p>
+    <ul>
+      <li>Private dressage lessons</li>
+      <li>Full and partial training for your horse</li>
+      <li>Show preparation and show-day assistance</li>
+      <li>Clinics</li>
+    </ul>
+
+    <h2>Frequently asked questions</h2>
+    <dl class="faq">
+      {
+        faqs.map((f) => (
+          <>
+            <dt>{f.q}</dt>
+            <dd>{f.a}</dd>
+          </>
+        ))
+      }
+    </dl>
+
+    <h2>Ask about availability</h2>
+    <p>
+      Please <a href="/contact/">contact Natalie</a> for current availability and pricing, and with any questions about
+      dressage training in the St. Louis area. Looking for a place for your horse? See
+      <a href="/boarding/">dressage boarding</a>.
+    </p>
+    <p><a class="btn" href="/contact/">Contact Natalie</a></p>
+  </div>
+</Page>
+
+<style>
+  .faq dt {
+    font-weight: 600;
+    margin-top: 1.25rem;
+  }
+  .faq dd {
+    margin: 0.25rem 0 0;
+    color: var(--ink-soft);
+  }
+</style>

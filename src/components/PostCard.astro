@@ -1,0 +1,89 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { Image } from 'astro:assets';
+import { formatDate } from '../utils';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, date, image } = post.data;
+---
+
+<article class="card">
+  <a href={`/blog/${post.id}`} class="media" tabindex="-1" aria-hidden="true">
+    {
+      image ? (
+        <Image src={image} alt="" widths={[400, 700]} sizes="(max-width: 700px) 100vw, 400px" />
+      ) : (
+        <span class="placeholder" />
+      )
+    }
+  </a>
+  <div class="body">
+    <time datetime={date.toISOString()}>{formatDate(date)}</time>
+    <h3><a href={`/blog/${post.id}`}>{title}</a></h3>
+    <p>{description}</p>
+  </div>
+</article>
+
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  .media {
+    display: block;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+    background: var(--accent-soft);
+  }
+  .media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .body {
+    padding: 1.25rem 1.4rem 1.5rem;
+  }
+  time {
+    font-size: 0.8rem;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  h3 {
+    margin: 0.35rem 0 0.5rem;
+    font-size: 1.3rem;
+  }
+  h3 a {
+    color: var(--ink);
+    text-decoration: none;
+  }
+  h3 a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  .card {
+    position: relative;
+  }
+  p {
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

@@ -1,0 +1,47 @@
+---
+import Page from '../../layouts/Page.astro';
+import { businessLd } from '../../schema';
+import { SITE } from '../../site';
+import hero from '../../assets/images/NatalieHammondDressage-25.jpg';
+---
+
+<Page
+  title="Dressage Boarding in St. Louis, Missouri"
+  heading="Dressage Boarding in St. Louis"
+  eyebrow="Boarding"
+  lede={`Boarding for horses in training with Natalie Hammond at ${SITE.barn.name} in ${SITE.barn.city}, Missouri.`}
+  description="Information about dressage boarding and training board with Natalie Hammond at Paradiso Farm in Wentzville, Missouri, serving St. Louis and the surrounding area."
+  keywords="dressage boarding, horse boarding, training board, st louis, saint louis, wentzville, st charles county, equestrian, horse"
+  hero={hero}
+  heroAlt="Natalie riding a grey horse at a dressage show"
+  jsonLd={businessLd}
+>
+  <div class="prose">
+    <p>
+      Natalie rides and trains out of <a href={SITE.barn.url} rel="noopener">{SITE.barn.name}</a> in
+      {SITE.barn.city}, Missouri, a short drive from St. Louis, Wildwood, Chesterfield and St. Charles County.
+    </p>
+    <p>
+      A dressage horse does best when daily care and training work together. If you're looking for boarding in the St.
+      Louis area for a horse in full or partial training with Natalie, she can talk you through the current options and
+      availability at {SITE.barn.name}.
+    </p>
+
+    <h2>Training with boarding</h2>
+    <ul>
+      <li><strong>Full training:</strong> regular training rides and lessons, with individual attention for your horse.</li>
+      <li><strong>Partial training:</strong> a flexible mix of professional rides and your own lessons.</li>
+      <li><strong>Lessons and show support:</strong> coaching for riders at every level, at home and at shows.</li>
+    </ul>
+    <p>
+      Natalie keeps a limited number of horses in training, so openings are limited. See the
+      <a href="/training/">dressage training page</a> for more.
+    </p>
+
+    <h2>Ask about availability</h2>
+    <p>
+      For details on pricing and availability, please <a href="/contact/">contact Natalie</a>.
+    </p>
+    <p><a class="btn" href="/contact/">Contact Natalie</a></p>
+  </div>
+</Page>

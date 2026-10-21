@@ -1,0 +1,226 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PostCard from '../components/PostCard.astro';
+import AlbumCard from '../components/AlbumCard.astro';
+import { getAlbums, getPosts } from '../utils';
+import { SITE } from '../site';
+import { businessLd, personLd, websiteLd } from '../schema';
+import hero from '../assets/images/2023/2022USDressageFinals/USDressageFinals-3.jpg';
+import portrait from '../assets/images/Natalie.jpg';
+import training from '../assets/images/NatalieHammondDressage-21.jpg';
+
+const posts = (await getPosts()).slice(0, 3);
+const albums = (await getAlbums()).slice(0, 3);
+---
+
+<Base
+  title="Natalie Hammond Dressage | Dressage Rider & Trainer in St. Louis, Missouri"
+  description="Natalie Hammond is an FEI dressage rider and German-certified Bereiter in the St. Louis area. Follow her riding, shows and photos, and ask about dressage lessons and training at Paradiso Farm in Wentzville, MO."
+  keywords="natalie hammond, dressage, dressage training, dressage lessons, dressage boarding, st louis, saint louis, wentzville, wildwood, equestrian, horse"
+  image={hero}
+  jsonLd={[websiteLd, personLd, businessLd]}
+>
+  <section class="hero">
+    <Image
+      src={hero}
+      alt="Natalie and Rufus in an extended trot at the 2022 US Dressage Finals"
+      widths={[768, 1280, 1920, 2560]}
+      sizes="100vw"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class="hero-text wrap">
+      <p class="eyebrow">St. Louis, Missouri</p>
+      <h1>Natalie Hammond Dressage</h1>
+      <p class="lede">
+        FEI rider, German-certified Bereiter, and lifelong student of the horse, now riding out of
+        {SITE.barn.name} in {SITE.barn.city}.
+      </p>
+      <div class="actions">
+        <a class="btn" href="/blog/">Read the journal</a>
+        <a class="btn ghost" href="/photos/">See the photos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="section-head">
+      <div>
+        <p class="eyebrow">Journal</p>
+        <h2>From the barn</h2>
+      </div>
+      <a href="/blog/">All posts &rarr;</a>
+    </div>
+    <div class="grid">
+      {posts.map((post) => <PostCard post={post} />)}
+    </div>
+  </section>
+
+  <section class="section photos">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Photos</p>
+          <h2>Horses, shows &amp; moments</h2>
+        </div>
+        <a href="/photos/">All albums &rarr;</a>
+      </div>
+      <div class="grid">
+        {albums.map((album) => <AlbumCard album={album} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap split">
+    <Image src={portrait} alt="Natalie Hammond" widths={[400, 700, 1000]} sizes="(max-width: 800px) 100vw, 480px" />
+    <div>
+      <p class="eyebrow">About Natalie</p>
+      <h2>A life in the saddle</h2>
+      <p>
+        Natalie has ridden since childhood and has competed at FEI levels in Germany and Australia. After three years of
+        study in Germany she completed her Bereiter training with the Equestrian Association e.V. in Warendorf, and
+        she has qualified for and competed at the US Dressage Finals.
+      </p>
+      <p>She lives in Wildwood, Missouri with her husband Chris and their kids.</p>
+      <div class="actions">
+        <a class="btn" href="/about/">More about Natalie</a>
+        <a class="btn ghost" href="/blog/natalie-hammond-cv">Read her CV</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap">
+    <div class="training">
+      <Image src={training} alt="Natalie riding a grey horse in a dressage arena" widths={[600, 1000, 1400]} sizes="(max-width: 800px) 100vw, 560px" />
+      <div class="training-text">
+        <p class="eyebrow">Dressage training in St. Louis</p>
+        <h2>Lessons &amp; training at {SITE.barn.name}</h2>
+        <p>
+          Natalie keeps a small number of openings for dressage lessons, training rides and show coaching at
+          {SITE.barn.name} in {SITE.barn.city}, a short drive from St. Louis, Wildwood and St. Charles County.
+        </p>
+        <div class="actions">
+          <a class="btn" href="/training/">Training &amp; lessons</a>
+          <a class="btn ghost" href="/boarding/">Boarding</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: min(88dvh, 52rem);
+    display: grid;
+    align-items: end;
+    color: #fff;
+    overflow: hidden;
+  }
+  .hero > :global(img) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 60% 35%;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to top, rgb(10 18 13 / 0.82) 0%, rgb(10 18 13 / 0.35) 45%, rgb(10 18 13 / 0.05) 75%);
+  }
+  .hero-text {
+    position: relative;
+    z-index: 2;
+    padding-block: 3rem clamp(3rem, 8vw, 5.5rem);
+  }
+  .hero h1 {
+    font-size: clamp(2.6rem, 7vw, 5rem);
+    max-width: 14ch;
+    margin-bottom: 0.3em;
+  }
+  .hero .eyebrow {
+    color: #e3c48f;
+  }
+  .hero .lede {
+    color: rgb(255 255 255 / 0.88);
+    max-width: 36rem;
+  }
+  .hero .btn {
+    background: #f5f1e8;
+    color: #1d2721;
+    border-color: #f5f1e8;
+  }
+  .hero .btn.ghost {
+    background: transparent;
+    color: #fff;
+    border-color: rgb(255 255 255 / 0.7);
+  }
+  .actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+  .photos {
+    background: var(--accent-soft);
+  }
+  .split {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    gap: clamp(2rem, 6vw, 5rem);
+    align-items: center;
+  }
+  .split > :global(img) {
+    border-radius: var(--radius);
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 100%;
+  }
+  .training {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--brand);
+    color: var(--brand-ink);
+    border-radius: calc(var(--radius) * 1.5);
+    overflow: hidden;
+  }
+  .training > :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 20rem;
+  }
+  .training-text {
+    padding: clamp(2rem, 5vw, 3.5rem);
+    align-self: center;
+  }
+  .training .eyebrow {
+    color: var(--accent);
+  }
+  .training .btn {
+    background: var(--brand-ink);
+    color: var(--brand);
+    border-color: var(--brand-ink);
+  }
+  .training .btn.ghost {
+    background: transparent;
+    color: var(--brand-ink);
+    border-color: currentColor;
+  }
+  @media (max-width: 800px) {
+    .split,
+    .training {
+      grid-template-columns: 1fr;
+    }
+    .training > :global(img) {
+      min-height: 0;
+      aspect-ratio: 3 / 2;
+    }
+  }
+</style>

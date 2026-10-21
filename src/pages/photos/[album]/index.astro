@@ -1,0 +1,43 @@
+---
+import Page from '../../../layouts/Page.astro';
+import Gallery from '../../../components/Gallery.astro';
+import { getAlbums } from '../../../utils';
+import { SITE } from '../../../site';
+
+export async function getStaticPaths() {
+  const albums = await getAlbums();
+  return albums.map((album) => ({ params: { album: album.id }, props: { album } }));
+}
+
+const { album } = Astro.props;
+const { title, description, cover, photos, date } = album.data;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ImageGallery',
+  name: title,
+  description,
+  url: `${SITE.url}/photos/${album.id}/`,
+  author: { '@type': 'Person', name: 'Natalie Hammond' },
+};
+---
+
+<Page
+  title={`${title} Photos`}
+  heading={title}
+  eyebrow={`Photos · ${date.getFullYear()}`}
+  lede={description}
+  description={description}
+  image={cover}
+  jsonLd={jsonLd}
+>
+  <Gallery photos={photos} label={title} />
+  <p class="back"><a href="/photos/">&larr; All photo albums</a></p>
+</Page>
+
+<style>
+  .back {
+    margin-top: 2rem;
+    text-align: center;
+  }
+</style>

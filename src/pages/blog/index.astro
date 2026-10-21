@@ -1,0 +1,19 @@
+---
+import Page from '../../layouts/Page.astro';
+import PostCard from '../../components/PostCard.astro';
+import { getPosts } from '../../utils';
+
+const posts = await getPosts();
+---
+
+<Page
+  title="Journal"
+  heading="The Journal"
+  eyebrow="News from the barn"
+  lede="Show results, training notes, horses, and life around the barn with Natalie Hammond Dressage."
+  description="News, show results, training notes and photos from Natalie Hammond Dressage in the St. Louis area."
+>
+  <div class="grid">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
+</Page>
