@@ -5,7 +5,7 @@ keywords: "Natalie Hammond, Paradiso Farm, Wentzville Missouri, dressage, dressa
 date: 2026-10-21T12:00:00-05:00
 image: ../../assets/images/2023/2022USDressageFinals/USDressageFinals-3.jpg
 imageAlt: Natalie and Rufus at the 2022 US Dressage Finals
-draft: true
+draft: false
 ---
 
 Some news from our corner of the dressage world: Natalie is now riding and training out of [Paradiso Farm](https://www.facebook.com/profile.php?id=61592222600694) in Wentzville, Missouri.
