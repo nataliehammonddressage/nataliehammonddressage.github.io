@@ -22,3 +22,8 @@
 /Blog/itemId/19/4-Horse-Shadow-Trailer-in-San-Francisco-Bay-Area-.aspx /blog/dressage-horse-trailer-st-louis 301
 /Default.aspx / 301
 /default.aspx / 301
+# Jekyll leftovers
+/sitemap.xml /sitemap-index.xml 301
+/search.json / 301
+/category/* /blog/ 301
+/blog /blog/ 301

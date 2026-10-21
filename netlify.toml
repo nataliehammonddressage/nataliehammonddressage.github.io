@@ -1,6 +1,10 @@
+# Copied into the built output that the GitHub Action pushes to the `main`
+# branch. That branch is already built, so Netlify has nothing to run.
 [build]
-  command = "bundle exec jekyll build"
-  publish = "_site"
+  command = ""
+  publish = "."
 
-[slug]
-  trailing_slash = "always"  # Options: "always", "never", "ignore"
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
