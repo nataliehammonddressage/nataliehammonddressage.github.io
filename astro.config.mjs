@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
+import { copyFile } from 'node:fs/promises';
 
 export default defineConfig({
   site: 'https://www.nataliehammond.com',
@@ -25,5 +26,16 @@ export default defineConfig({
         return item;
       },
     }),
+    // The old Jekyll site served /sitemap.xml and that's the URL search engines
+    // know, so publish the full URL list there too. Runs after the sitemap
+    // integration has written its files.
+    {
+      name: 'sitemap-xml',
+      hooks: {
+        'astro:build:done': async ({ dir }) => {
+          await copyFile(new URL('sitemap-0.xml', dir), new URL('sitemap.xml', dir));
+        },
+      },
+    },
   ],
 });
