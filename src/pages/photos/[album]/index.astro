@@ -1,15 +1,24 @@
 ---
 import Page from '../../../layouts/Page.astro';
 import Gallery from '../../../components/Gallery.astro';
-import { getAlbums } from '../../../utils';
+import AlbumCard from '../../../components/AlbumCard.astro';
+import { getAlbums, getPosts } from '../../../utils';
 import { SITE } from '../../../site';
 
 export async function getStaticPaths() {
-  const albums = await getAlbums();
-  return albums.map((album) => ({ params: { album: album.id }, props: { album } }));
+  const [albums, posts] = await Promise.all([getAlbums(), getPosts()]);
+  return albums.map((album) => ({
+    params: { album: album.id },
+    props: {
+      album,
+      // Cross-link every album so none relies on the Photos page alone
+      others: albums.filter((a) => a.id !== album.id),
+      posts: posts.filter((p) => p.data.album?.id === album.id),
+    },
+  }));
 }
 
-const { album } = Astro.props;
+const { album, others, posts } = Astro.props;
 const { title, description, cover, photos, date } = album.data;
 
 const jsonLd = {
@@ -32,12 +41,33 @@ const jsonLd = {
   jsonLd={jsonLd}
 >
   <Gallery photos={photos} label={title} />
-  <p class="back"><a href="/photos/">&larr; All photo albums</a></p>
+  {
+    posts.map((post) => (
+      <p class="story">
+        Read the story: <a href={`/blog/${post.id}`}>{post.data.title}</a>
+      </p>
+    ))
+  }
+
+  <section class="others" aria-labelledby="others-title">
+    <div class="section-head">
+      <h2 id="others-title">More albums</h2>
+      <a href="/photos/">All photo albums &rarr;</a>
+    </div>
+    <div class="grid">
+      {others.map((a) => <AlbumCard album={a} />)}
+    </div>
+  </section>
 </Page>
 
 <style>
-  .back {
+  .story {
     margin-top: 2rem;
     text-align: center;
+  }
+  .others {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 1px solid var(--line);
   }
 </style>

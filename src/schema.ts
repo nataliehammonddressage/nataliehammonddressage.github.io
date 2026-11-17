@@ -40,10 +40,25 @@ export const businessLd = {
   email: SITE.email,
   description: SITE.description,
   founder: { '@id': `${SITE.url}/#natalie` },
-  sport: 'Dressage',
+  parentOrganization: { '@id': `${SITE.url}/#org` },
   address: barnLd.address,
   areaServed: ['St. Louis, MO', 'Wentzville, MO', 'Wildwood, MO', 'St. Charles County, MO', 'O\'Fallon, MO', 'Chesterfield, MO'],
   sameAs: [SITE.social.facebook],
+};
+
+export const organizationLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${SITE.url}/#org`,
+  name: SITE.name,
+  url: SITE.url,
+  logo: { '@type': 'ImageObject', url: `${SITE.url}/logo.png`, width: 320, height: 320 },
+  image: `${SITE.url}/logo.png`,
+  email: SITE.email,
+  description: SITE.description,
+  founder: { '@id': `${SITE.url}/#natalie` },
+  address: barnLd.address,
+  sameAs: [SITE.social.facebook, SITE.social.twitter],
 };
 
 export const websiteLd = {
@@ -51,5 +66,5 @@ export const websiteLd = {
   '@type': 'WebSite',
   name: SITE.name,
   url: SITE.url,
-  publisher: { '@id': `${SITE.url}/#natalie` },
+  publisher: { '@id': `${SITE.url}/#org` },
 };

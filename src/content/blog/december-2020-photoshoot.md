@@ -1,6 +1,6 @@
 ---
 title: "December 2020 Photoshoot!"
-description: "Natalie Hammond Dressage and some of her students got their horses all cleaned up and did a photoshoot!"
+description: "Natalie Hammond Dressage and some of her students got their horses all cleaned up for a December photoshoot with Rhapsody, Lander and Caillou."
 keywords: "dressage, photoshoot, equestrian, st louis, Photo, Instagram"
 date: 2020-12-08T08:00:00-06:00
 image: ../../assets/images/2020/NatalieHammondDressage2020-1.jpg

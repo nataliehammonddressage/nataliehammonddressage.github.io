@@ -2,7 +2,7 @@ export const SITE = {
   name: 'Natalie Hammond Dressage',
   url: 'https://www.nataliehammond.com',
   description:
-    'Natalie Hammond is an FEI dressage rider and German-certified Bereiter based in the St. Louis area, riding and training out of Paradiso Farm in Wentzville, Missouri.',
+    'Natalie Hammond is an FEI dressage rider and German Bereiter in the St. Louis area, riding and training at Paradiso Farm in Wentzville, Missouri.',
   email: 'hello@nataliehammond.com',
   googleAnalytics: 'G-WZCBGK1JHH',
   twitter: 'natdressage',

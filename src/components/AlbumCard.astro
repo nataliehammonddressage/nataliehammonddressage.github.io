@@ -11,7 +11,7 @@ const { title, cover, photos, date } = album.data;
 ---
 
 <a class="album" href={`/photos/${album.id}/`}>
-  <Image src={cover} alt="" widths={[400, 700]} sizes="(max-width: 700px) 100vw, 400px" />
+  <Image src={cover} alt="" width={700} widths={[400, 700]} sizes="(max-width: 700px) 100vw, 400px" />
   <span class="meta">
     <span class="title">{title}</span>
     <span class="count">{date.getFullYear()} · {photos.length} photos</span>

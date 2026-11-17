@@ -15,7 +15,7 @@ const { title, description, date, image } = post.data;
   <a href={`/blog/${post.id}`} class="media" tabindex="-1" aria-hidden="true">
     {
       image ? (
-        <Image src={image} alt="" widths={[400, 700]} sizes="(max-width: 700px) 100vw, 400px" />
+        <Image src={image} alt="" width={700} widths={[400, 700]} sizes="(max-width: 700px) 100vw, 400px" />
       ) : (
         <span class="placeholder" />
       )

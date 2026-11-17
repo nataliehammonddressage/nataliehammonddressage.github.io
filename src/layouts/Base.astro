@@ -31,7 +31,9 @@ const {
   noindex = false,
 } = Astro.props;
 
-const fullTitle = title.includes(SITE.name) ? title : `${title} | ${SITE.name}`;
+// Add the site name only when it fits; search results cut titles off around 60 characters
+const suffixed = `${title} | ${SITE.name}`;
+const fullTitle = title.includes(SITE.name) || suffixed.length > 60 ? title : suffixed;
 // Netlify serves blog/slug.html at /blog/slug, so drop the extension
 const canonical = new URL(Astro.url.pathname.replace(/\.html$/, ''), SITE.url).href;
 const ogImage = await getImage({ src: image, width: 1200, format: 'jpg', quality: 80 });

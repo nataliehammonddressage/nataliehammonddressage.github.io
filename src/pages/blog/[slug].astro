@@ -17,6 +17,10 @@ const { title, description, date, updated, image, imageAlt, keywords, album: alb
 const { Content } = await render(post);
 const album = albumRef ? await getEntry(albumRef) : undefined;
 const more = posts.filter((p) => p.id !== post.id).slice(0, 3);
+// Posts are newest first, so the neighbours give every post at least two internal links
+const index = posts.findIndex((p) => p.id === post.id);
+const newer = posts[index - 1];
+const older = posts[index + 1];
 const url = `${SITE.url}/blog/${post.id}`;
 
 const jsonLd = {
@@ -29,7 +33,12 @@ const jsonLd = {
   url,
   mainEntityOfPage: url,
   author: { '@type': 'Person', name: 'Natalie Hammond', url: `${SITE.url}/about/` },
-  publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.url,
+    logo: { '@type': 'ImageObject', url: `${SITE.url}/logo.png` },
+  },
   ...(keywords && { keywords }),
 };
 ---
@@ -59,6 +68,8 @@ const jsonLd = {
           <Image
             src={image}
             alt={imageAlt ?? title}
+            width={1280}
+            format="avif"
             widths={[640, 1024, 1600, 2200]}
             sizes="(max-width: 1200px) 100vw, 1152px"
             loading="eager"
@@ -77,10 +88,34 @@ const jsonLd = {
         <section class="wrap album" aria-labelledby="gallery-title">
           <h2 id="gallery-title">Photo gallery</h2>
           <Gallery photos={album.data.photos} label={album.data.title} />
+          {!album.data.hidden && (
+            <p class="album-link">
+              <a href={`/photos/${album.id}/`}>View the {album.data.title} album &rarr;</a>
+            </p>
+          )}
         </section>
       )
     }
   </article>
+
+  <nav class="wrap pager" aria-label="More posts">
+    {
+      older && (
+        <a class="older" href={`/blog/${older.id}`}>
+          <span>&larr; Older</span>
+          {older.data.title}
+        </a>
+      )
+    }
+    {
+      newer && (
+        <a class="newer" href={`/blog/${newer.id}`}>
+          <span>Newer &rarr;</span>
+          {newer.data.title}
+        </a>
+      )
+    }
+  </nav>
 
   {
     more.length > 0 && (
@@ -131,6 +166,50 @@ const jsonLd = {
   }
   .more {
     border-top: 1px solid var(--line);
-    margin-top: 4rem;
+    margin-top: 2rem;
+  }
+  .album-link {
+    max-width: var(--prose);
+    margin: 1.5rem auto 0;
+  }
+  .pager {
+    max-width: calc(var(--prose) + 2 * var(--gutter));
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+  .pager a {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--ink);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    line-height: 1.3;
+  }
+  .pager a:hover {
+    border-color: var(--accent);
+  }
+  .pager span {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .pager .newer {
+    grid-column: 2;
+    text-align: right;
+  }
+  @media (max-width: 600px) {
+    .pager {
+      grid-template-columns: 1fr;
+    }
+    .pager .newer {
+      grid-column: auto;
+    }
   }
 </style>

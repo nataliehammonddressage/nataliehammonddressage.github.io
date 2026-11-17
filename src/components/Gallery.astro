@@ -9,10 +9,10 @@ interface Props {
 
 const { photos, label = 'Photo gallery' } = Astro.props;
 
-// Full-size versions for the lightbox; thumbnails come from <Image> below
+// Lightbox versions: 1200px AVIF keeps most photos under 100 KB. Thumbnails come from <Image> below
 const items = await Promise.all(
   photos.map(async (photo) => {
-    const full = await getImage({ src: photo.src, width: Math.min(photo.src.width, 2000), format: 'webp', quality: 82 });
+    const full = await getImage({ src: photo.src, width: Math.min(photo.src.width, 1200), format: 'avif', quality: 50 });
     return { ...photo, full: full.src };
   }),
 );
@@ -25,6 +25,7 @@ const items = await Promise.all(
         <Image
           src={item.src}
           alt={item.alt}
+          width={560}
           widths={[360, 560, 800]}
           sizes="(max-width: 600px) 50vw, (max-width: 1100px) 33vw, 360px"
           loading={i < 6 ? 'eager' : 'lazy'}
